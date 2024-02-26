@@ -1,0 +1,158 @@
+body {
+    width: 100%;
+    margin: 0;
+    background-color: #8C5F3F;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    padding: 15px;
+}
+
+section {
+    margin:20px auto;
+    width:80%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #F2EBE6;
+    color:#5C3417;
+    border-radius: 15px;
+}
+
+/*form section*/
+
+input, textarea{
+    display:block;
+    width:95%;
+    padding:5px;
+    margin:5px 0;
+}
+
+input[type="button"]{
+    margin: 5px auto;
+    background-color: #E6F1F2;
+    padding:0.3rem;
+    width: 25%;
+    border-radius: 2px;
+    border-style: none;
+    cursor: pointer;
+}
+
+input[type="button"]:hover{
+    background-color: #5C3417;
+}
+
+form {
+    margin:10px auto;
+    width:60%;
+    min-width: 400px;
+}
+
+fieldset {
+    margin: 10px;
+}
+
+
+/*Curriculum section*/
+
+#curriculum-section{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#curriculum-section h2 {
+    text-align: center;
+}
+
+#curriculum-section img {
+    margin: 10px auto;
+    display: block;
+}
+
+/*personal information section*/
+
+#personal-information{
+    list-style: none;
+    margin: 10px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: center;
+    gap:10px;
+    flex-wrap: wrap;
+}
+
+#personal-information li{
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+
+/*Ver isso aqui direito*/
+
+@media screen and (max-width: 715px) {
+
+    #personal-information li{
+        padding:0;
+        margin:0;
+        width: 43%;
+        text-align: center;
+    }
+}
+
+/*Curriculum's content*/
+.content {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+    gap:16px;
+}
+
+/*columns*/
+.columns{
+    display:inline-block;
+    padding: 5px;
+}
+
+/*column 1*/
+#column1 {
+    width: 30%;
+    text-align: center;
+}
+
+.headers-column1{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#skills{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    border-bottom: 1px solid #5C3417;
+    padding-bottom: 5px;
+    margin-bottom:5px;
+}
+
+/*column 2*/
+#column2 {
+    width: 60%;
+}
+
+
+

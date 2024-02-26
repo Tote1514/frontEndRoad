@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #C7A689;
+    color:#615245;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+/*Definitions' section */
+
+.definition-section {
+    width: 70%;
+    margin-left: 0;
+    float:right;
+}
+
+.definitions {
+    padding:12px 20px;
+    margin: 7px 5px 7px 0;
+    line-height: 1.8;
+}
+
+.headers {
+    margin: -2px auto 10px 10px;
+    font-size:2em;
+}
+
+.definitions code {
+    display:block;
+    background-color: #FAB67A;
+    color:#33261A;
+    border-radius: 5px;
+    width: 85%;
+    padding:15px;
+    margin:10px auto;
+    
+}
+
+.definitions p {
+    text-align: justify;
+    padding:5px;
+    margin: 5px auto 5px 20px;
+}
+
+.outer-list {
+    margin: 15px 20px;
+}
+
+.outer-list li {
+    text-align: justify;
+    margin-bottom:5px;
+}
+
+#reference a {
+    color:#33261A;
+}
+
+#reference a:hover{
+    color:white;
+}
+
+/*navigation-bar*/
+.navigation-bar {
+    position:fixed;
+    padding:0;
+    margin:0;
+    width: 30%;
+    display:inline-block;
+    height: 100%;
+    overflow-y: auto;
+    border-right:2px solid #615245;
+}
+
+.navigation-bar h1 {
+    margin-left:10px;
+    font-size:2em;
+}
+
+.navigation-bar ul {
+    list-style-type: none;
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+.navigation-bar li {
+    border-bottom:2px solid #615245;
+    padding:15px;
+}
+
+.navigation-bar a {
+    display:block;
+    text-decoration: none;
+    color:inherit;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 815px){
+
+    .navigation-bar  {
+        display:block;
+        width: 100%;
+        position:unset;
+        overflow-y:unset;
+        height: auto;
+    }
+    
+    .navigation-bar ul {
+        overflow-y: auto;
+        max-height: 50vh; 
+        border-bottom: 2px solid #615245;
+    }
+
+    .navigation-bar li:last-of-type{
+        border-bottom: none;
+    }
+
+    .definition-section {
+        float:unset;
+        width: 100%;
+    }
+
+    .definitions {
+        margin: 7px 5px;
+    }
+    
+}

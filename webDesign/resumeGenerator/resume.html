@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Resume Template</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Put information about you: </h1>
+        <section>
+            <form name="data-form">
+                <fieldset>
+                    <legend>Personal information about you:</legend>
+                    <label for="name-Input">Name:</label>
+                    <input type="text" id="name-Input" required>
+                    <label for="age-input">Age:</label>
+                    <input type="number" id="age-input" min="12" max="120">
+                    <label for="job-input">Job:</label>
+                    <input type="text" id="job-input">
+                    <label for="course-input">Address:</label>
+                    <input type="text" id="address-input">
+                    <label for="telephone-input">Telephone:</label>
+                    <input  type="tel" id="telephone-input">
+                    <label for="selfie-input">A selfie of you:</label>
+                    <input type="file" id="selfie-input">
+                </fieldset>
+                <fieldset>
+                    <legend>Tell us about your professional life:</legend>
+                    <label for="profile-input">Profile:</label>
+                    <textarea id="profile-input"></textarea>
+                </fieldset>
+                <input type="button" value="Submit">
+            </form>
+        </section>
+        <hr>
+        <h1>Your curriculum:</h1>
+        <section id="curriculum-section">
+            <img src="https://img.freepik.com/free-photo/businesswoman-leader-modern-office-with-businesspeople-workin_1139-957.jpg"
+            width="300">
+            <h2>Jose Antonio Castro</h2>
+            <ul id="personal-information">
+                <li>Software Engineer</li>
+                <li>Rio de Janeiro, Brazil</li>
+                <li>(21)9077756-05</li>
+            </ul>
+            <div class="content">
+                <div id="column1" class="columns">
+                    <div id="details">
+                        <h3 class="headers-column1">Details: </h3>
+                        <p>
+                            Rua Duque de Caxias 125<br>
+                            Vila Isabel<br>
+                            Rio de Janeiro, Rio de Janeiro 
+                        </p>
+                    </div>
+                    <div id="skills">
+                        <h3 class="headers-column1">Skills:</h3>
+                        <ul>
+                            <li>General Management</li>
+                            <li>Problem solving skills</li>
+                            <li>Business Development strategies</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="column2" class="columns">
+                    <div id="profile">
+                        <h3>Profile</h3>
+                        <p>
+                            Experienced and self-motivated Manager bringing forth valuable industry
+                            Experience and a passion for management. Results oriented with a proven track 
+                            record working collaboratively with a team members to achive goals. Experienced 
+                            in both retail and culinary settings and effectively managing all operations.
+                        </p>
+                    </div>
+                    <div id="employment-history">
+                        <h3>Employment history</h3>
+                        <!--Ver como organizar isso aqui melhor-->
+                        <h4>Software Developer at Deep Seed Solutions</h4>
+                        <h5>August 2023 - Febraury 2024</h5>
+                        <ul>
+                            <li>Testes unitarios</li>
+                            <li>Correcao de bugs</li>
+                            <li>Sei la</li>
+                        </ul>
+                        <h4>Software Developer at Deep Seed Solutions</h4>
+                        <h5>August 2023 - Febraury 2024</h5>
+                        <ul>
+                            <li>Testes unitarios</li>
+                            <li>Correcao de bugs</li>
+                            <li>Sei la</li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <footer>
+            <a href="https://s3.resume.io/cdn-cgi/image/width=544,height=480,fit=crop,gravity=top,quality=75,format=auto/uploads/local_template_image/image/2081/persistent-resource/new-york-cv-templates.jpg"
+            target="_blank">The example:</a>
+        </footer>
+    </body>
+</html>
